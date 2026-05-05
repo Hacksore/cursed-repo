@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "buildCommand": "npm test",
+  "outputDirectory": "dist"
+}

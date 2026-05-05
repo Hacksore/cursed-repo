@@ -1,0 +1,9 @@
+{
+  "models": [],
+  "customCommands": [
+    {
+      "name": "config-zoo",
+      "prompt": "Summarize the config fragmentation in this repository."
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+workspace_base = "."
+run_as_devcontainer = false

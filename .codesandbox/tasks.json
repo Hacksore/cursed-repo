@@ -1,0 +1,8 @@
+{
+  "setupTasks": [
+    { "name": "Install Dependencies", "command": "npm install" }
+  ],
+  "tasks": {
+    "test": { "name": "test", "command": "npm test" }
+  }
+}

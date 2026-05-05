@@ -1,0 +1,30 @@
+{
+  "name": "cursed-repo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A deliberately over-configured JavaScript repo used to demonstrate config fragmentation.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "lint": "node --check src/index.js && node --check test/smoke.test.js && node --check scripts/check-config-zoo.mjs",
+    "check:configs": "node scripts/check-config-zoo.mjs",
+    "format": "prettier --check .",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["cursed", "javascript", "configuration", "dotfiles", "agents"],
+  "engines": {
+    "node": ">=20",
+    "npm": ">=10"
+  },
+  "packageManager": "npm@10.0.0",
+  "volta": {
+    "node": "20.11.1",
+    "npm": "10.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/example/cursed-repo.git"
+  },
+  "license": "MIT"
+}

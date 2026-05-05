@@ -1,0 +1,6 @@
+image: Visual Studio 2022
+install:
+  - ps: Install-Product node 20
+test_script:
+  - npm test
+build: off

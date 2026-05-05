@@ -1,0 +1,5 @@
+title = "cursed-repo gitleaks config"
+
+[allowlist]
+description = "Allow placeholder example values"
+paths = ['''\.env\..*example''']

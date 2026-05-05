@@ -1,0 +1,4 @@
+customModes:
+  - slug: config-zookeeper
+    name: Config Zookeeper
+    roleDefinition: Preserve the cursed config zoo.

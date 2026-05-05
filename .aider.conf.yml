@@ -1,0 +1,4 @@
+auto-commits: false
+dirty-commits: false
+read:
+  - CONFIG_ZOO.md

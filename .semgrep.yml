@@ -1,0 +1,6 @@
+rules:
+  - id: no-console-error-demo
+    pattern: console.error(...)
+    message: Avoid console.error in examples
+    severity: INFO
+    languages: [javascript]

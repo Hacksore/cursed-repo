@@ -1,0 +1,8 @@
+apiVersion: skaffold/v4beta11
+kind: Config
+metadata:
+  name: cursed-repo
+build:
+  artifacts:
+    - image: cursed-repo
+      context: .

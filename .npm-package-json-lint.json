@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "require-name": "error",
+    "require-version": "error"
+  }
+}

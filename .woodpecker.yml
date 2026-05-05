@@ -1,0 +1,5 @@
+steps:
+  test:
+    image: node:20
+    commands:
+      - npm test
