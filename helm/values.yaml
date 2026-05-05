@@ -1,0 +1,4 @@
+replicaCount: 1
+image:
+  repository: cursed-repo
+  tag: latest

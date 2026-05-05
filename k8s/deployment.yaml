@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cursed-repo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cursed-repo
+  template:
+    metadata:
+      labels:
+        app: cursed-repo
+    spec:
+      containers:
+        - name: app
+          image: cursed-repo:latest
+          ports:
+            - containerPort: 3000

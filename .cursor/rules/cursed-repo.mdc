@@ -1,0 +1,8 @@
+---
+description: Preserve the cursed configuration zoo
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+Keep edits small, preserve config examples, and update `CONFIG_ZOO.md` when adding a new convention.

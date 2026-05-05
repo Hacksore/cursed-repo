@@ -1,0 +1,3 @@
+# Maintainers
+
+- Cursed Repo Maintainers

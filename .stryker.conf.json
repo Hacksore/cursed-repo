@@ -1,0 +1,7 @@
+{
+  "mutate": ["src/**/*.js"],
+  "testRunner": "command",
+  "commandRunner": {
+    "command": "npm test"
+  }
+}

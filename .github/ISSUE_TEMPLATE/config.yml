@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Config zoo catalog
+    url: https://example.com
+    about: Check the catalog before opening an issue.

@@ -1,0 +1,5 @@
+{
+  "name": "cursed-agent-config",
+  "skillsFile": "SKILLS.md",
+  "defaultTask": "keep the config zoo cursed"
+}

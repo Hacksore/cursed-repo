@@ -1,0 +1,9 @@
+name: Bug report
+description: Report an issue in the config zoo
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true

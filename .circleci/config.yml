@@ -1,0 +1,12 @@
+version: 2.1
+jobs:
+  test:
+    docker:
+      - image: cimg/node:20.11
+    steps:
+      - checkout
+      - run: npm test
+workflows:
+  test:
+    jobs:
+      - test

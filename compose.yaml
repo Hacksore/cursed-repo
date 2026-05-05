@@ -1,0 +1,4 @@
+services:
+  cursed-repo:
+    build: .
+    command: npm run check:configs
