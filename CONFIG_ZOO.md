@@ -7,6 +7,7 @@ This repo intentionally carries many overlapping industry-standard files. Most a
 - Root instruction files: `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, `COPILOT.md`, `AIDER.md`, `CURSOR.md`, `WINDSURF.md`, `QWEN.md`, `CODEX.md`
 - Hidden agent folders: `.agents/`, `.agent/`, `.cursor/`, `.claude/`, `.gemini/`, `.windsurf/`, `.continue/`, `.aider/`, `.goose/`, `.openhands/`, `.codex/`, `.amazonq/`, `.codeium/`, `.sourcegraph/`, `.qodo/`, `.cody/`, `.junie/`, `.kiro/`, `.augment/`, `.roo/`, `.amp/`, `.superclaude/`, `.bolt/`
 - Repeated skills files: many of those folders include `SKILLS.md` on purpose.
+- Gemini-specific peers in this zoo: `.geminiignore`, `.gemini/settings.json`.
 
 ## JavaScript tooling
 
